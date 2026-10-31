@@ -1,0 +1,24 @@
+@font-face{font-family:'Fraunces';src:url(/fonts/fraunces-latin.woff2) format('woff2');font-weight:100 900;font-display:swap}
+:root{--ink:#1a0b26;--purple:#260d3a;--gold:#f6c343;--paper:#fbf8f2;--muted:#5b5266;--line:#e7e1d6}
+*{box-sizing:border-box}html,body{margin:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--paper);line-height:1.65;font-size:17px}
+a{color:#5b2a86}
+header{background:linear-gradient(180deg,var(--purple),#160622);color:#fff;padding:20px 0 44px}
+.wrap{max-width:760px;margin:0 auto;padding:0 20px}
+.brand{display:inline-flex;align-items:center;gap:10px;font-weight:800;font-size:19px;color:#fff;text-decoration:none}
+.brand img{width:36px;height:36px}.brand b{color:var(--gold)}
+h1,h2,h3{font-family:'Fraunces',Georgia,serif;letter-spacing:-.01em;line-height:1.2}
+h1{font-size:clamp(32px,5vw,44px);margin:36px 0 8px}
+header p{color:#cbbfd9;margin:0}
+main.wrap{padding:36px 20px 64px}
+h2{font-size:24px;margin:40px 0 8px;padding-top:8px;border-top:1px solid var(--line)}
+h3{font-size:19px;margin:24px 0 4px}
+.summary{background:#fff;border:1px solid var(--line);border-radius:18px;padding:18px 22px;margin:0 0 8px}
+.summary ul{margin:8px 0 0;padding-left:20px}
+table{width:100%;border-collapse:collapse;font-size:15px;margin:12px 0}
+th,td{text-align:left;vertical-align:top;padding:10px 8px;border-bottom:1px solid var(--line)}
+th{font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+mark.todo{background:#fde68a;padding:0 4px;border-radius:4px}
+footer{border-top:1px solid var(--line);padding:24px 0 40px;color:var(--muted);font-size:14px}
+footer a{margin-right:14px}
+@media (max-width:600px){table,thead,tbody,tr,th,td{display:block}thead{display:none}td{border:0;padding:4px 0}tr{border-bottom:1px solid var(--line);padding:10px 0}}
